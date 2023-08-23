@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/hand-drawn-science-formulas-chalkboard-background_387864-1761.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block{
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align:left;
+}
+.image{
+    max-width: 400px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+.button{
+    background-color: #dbb300;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #18ca00;
+}
