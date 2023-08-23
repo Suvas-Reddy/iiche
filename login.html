@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyles.css">
+</head>
+<body>
+    <div class="block">
+    <h2>Login</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br>
+        <label for="password">Password:</label>
+        <br><input type="password" id="password"><br>
+        <label for="gender">Gender:</label><br>
+        <label for="male"><input type="radio" name="gender" id="male">Male</label><br>
+        <label for="female"><input type="radio" name="gender" id="female">Female</label><br>
+        <label for="other"><input type="radio" name="gender" id="other">Other</label><br>
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+           <option value="india">India</option>
+           <option value="usa">United States Of America</option>
+           <option value="japan">Japan</option>
+           <option value="new zealand">New Zealand</option>
+        </select><br>
+        <div>
+            <label for="interest">Interest:</label><br>
+            <label for="int1"><input type="checkbox" name="int1" id="int1">Design</label><br>
+            <label for="int2"><input type="checkbox" name="int2" id="int2">Content</label><br>
+            <label for="int3"><input type="checkbox" name="int3" id="int3">Management</label><br>
+            <label for="int4"><input type="checkbox" name="int4" id="int4">Technical</label><br>
+            <label for="int5"><input type="checkbox" name="int5" id="int5">Video Editors</label><br>
+        </div>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" name="dob" id="dob"><br>
+        <label for="addcom">Additional Comments:</label><br>
+        <textarea name="addcom" id="addcom" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div> 
+</body>
+</html>
